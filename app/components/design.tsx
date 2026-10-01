@@ -15,10 +15,10 @@ export default  function DesignPage(){
 
   return(
 
-    <div className="space-y-6 p-4 w-full bg-[hsl(213,19%,18%)] rounded-lg shadow-4xl">
+    <div className="space-y-6 p-4 w-full  bg-[hsl(213,19%,18%)] rounded-lg shadow-4xl md:w-1/4 ">
       {
         submit?(<Think rating={rating}/>):(
-      <div className="space-y-6">
+      <div className="space-y-6 ">
       <div className="bg-[hsl(216,12%,54%)]/10 w-11 h-11 flex items-center justify-center rounded-full ">
       <Image src={"/images/icon-star.svg" } height={15} width={15} alt="proIcon"
       className="rounded-full shadow-2xl"
